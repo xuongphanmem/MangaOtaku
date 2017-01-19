@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7610C32C1E311485001D26F3 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610C32B1E311485001D26F3 /* Chapter.swift */; };
+		7610C32F1E311714001D26F3 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610C32E1E311714001D26F3 /* ChapterViewController.swift */; };
 		764C15AE1E2DC4E9009D8554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C15AD1E2DC4E9009D8554 /* AppDelegate.swift */; };
 		764C15B01E2DC4E9009D8554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C15AF1E2DC4E9009D8554 /* ViewController.swift */; };
 		764C15B31E2DC4E9009D8554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764C15B11E2DC4E9009D8554 /* Main.storyboard */; };
@@ -14,6 +16,24 @@
 		764C15B81E2DC4E9009D8554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764C15B61E2DC4E9009D8554 /* LaunchScreen.storyboard */; };
 		764C15C31E2DC4EA009D8554 /* MangaOtakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C15C21E2DC4EA009D8554 /* MangaOtakuTests.swift */; };
 		764C15CE1E2DC4EA009D8554 /* MangaOtakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C15CD1E2DC4EA009D8554 /* MangaOtakuUITests.swift */; };
+		764C15DD1E2DCE71009D8554 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C15DC1E2DCE71009D8554 /* MainViewController.swift */; };
+		764C15DF1E2DCE7F009D8554 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C15DE1E2DCE7F009D8554 /* MenuViewController.swift */; };
+		766028B01E30E28B0024C0B3 /* 1484848990_icon-111-search.png in Resources */ = {isa = PBXBuildFile; fileRef = 766028AF1E30E28B0024C0B3 /* 1484848990_icon-111-search.png */; };
+		766028B21E3106BC0024C0B3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766028B11E3106BC0024C0B3 /* SearchViewController.swift */; };
+		76B26FD21E30B45B0008B41E /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B26FD01E30B45B0008B41E /* reveal-icon@2x.png */; };
+		76B26FD31E30B45B0008B41E /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B26FD11E30B45B0008B41E /* reveal-icon.png */; };
+		76B26FDA1E30BE140008B41E /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B26FD91E30BE140008B41E /* Defines.swift */; };
+		76B26FDC1E30C4120008B41E /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B26FDB1E30C4120008B41E /* Genre.swift */; };
+		76B26FDE1E30C43A0008B41E /* SharedCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B26FDD1E30C43A0008B41E /* SharedCenter.swift */; };
+		76E1634A1E30C61B00325F8F /* GenreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E163481E30C61B00325F8F /* GenreTableViewCell.swift */; };
+		76E1634B1E30C61B00325F8F /* GenreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E163491E30C61B00325F8F /* GenreTableViewCell.xib */; };
+		76E1634E1E30CC9E00325F8F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E1634C1E30CC9E00325F8F /* CollectionViewCell.swift */; };
+		76E1634F1E30CC9E00325F8F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E1634D1E30CC9E00325F8F /* CollectionViewCell.xib */; };
+		76E163511E30D23F00325F8F /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E163501E30D23F00325F8F /* Manga.swift */; };
+		76E163531E30DB9A00325F8F /* MangaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E163521E30DB9A00325F8F /* MangaDetailsViewController.swift */; };
+		A6FE3B65B7D5BF886DBCF8CC /* Pods_MangaOtakuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC4A36362DCB8CE819F3CAA /* Pods_MangaOtakuUITests.framework */; };
+		A8E4130E1C3409F6F0727C93 /* Pods_MangaOtaku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE049882753AB18D26AE4C6 /* Pods_MangaOtaku.framework */; };
+		E3A054D16F1C06255767EA21 /* Pods_MangaOtakuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D65646F477EBE64F2DB02B /* Pods_MangaOtakuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59A8BAEACEDB36FF75C4D35A /* Pods-MangaOtaku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaOtaku.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangaOtaku/Pods-MangaOtaku.release.xcconfig"; sourceTree = "<group>"; };
+		5AE049882753AB18D26AE4C6 /* Pods_MangaOtaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaOtaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D65646F477EBE64F2DB02B /* Pods_MangaOtakuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaOtakuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663863D32DEB82382547E478 /* Pods-MangaOtakuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaOtakuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangaOtakuTests/Pods-MangaOtakuTests.release.xcconfig"; sourceTree = "<group>"; };
+		685CC63120C8B2753848C72E /* Pods-MangaOtaku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaOtaku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangaOtaku/Pods-MangaOtaku.debug.xcconfig"; sourceTree = "<group>"; };
+		7610C32B1E311485001D26F3 /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		7610C32E1E311714001D26F3 /* ChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
 		764C15AA1E2DC4E9009D8554 /* MangaOtaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaOtaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		764C15AD1E2DC4E9009D8554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764C15AF1E2DC4E9009D8554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +74,26 @@
 		764C15C91E2DC4EA009D8554 /* MangaOtakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaOtakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764C15CD1E2DC4EA009D8554 /* MangaOtakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaOtakuUITests.swift; sourceTree = "<group>"; };
 		764C15CF1E2DC4EA009D8554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764C15DC1E2DCE71009D8554 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		764C15DE1E2DCE7F009D8554 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		766028AF1E30E28B0024C0B3 /* 1484848990_icon-111-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1484848990_icon-111-search.png"; sourceTree = "<group>"; };
+		766028B11E3106BC0024C0B3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		76B26FD01E30B45B0008B41E /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		76B26FD11E30B45B0008B41E /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		76B26FD51E30B9D30008B41E /* MangaOtaku-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MangaOtaku-Bridging-Header.h"; sourceTree = "<group>"; };
+		76B26FD91E30BE140008B41E /* Defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		76B26FDB1E30C4120008B41E /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		76B26FDD1E30C43A0008B41E /* SharedCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedCenter.swift; sourceTree = "<group>"; };
+		76E163481E30C61B00325F8F /* GenreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreTableViewCell.swift; sourceTree = "<group>"; };
+		76E163491E30C61B00325F8F /* GenreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenreTableViewCell.xib; sourceTree = "<group>"; };
+		76E1634C1E30CC9E00325F8F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		76E1634D1E30CC9E00325F8F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		76E163501E30D23F00325F8F /* Manga.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manga.swift; sourceTree = "<group>"; };
+		76E163521E30DB9A00325F8F /* MangaDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MangaDetailsViewController.swift; sourceTree = "<group>"; };
+		78E839EE2171995D97831E09 /* Pods-MangaOtakuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaOtakuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangaOtakuTests/Pods-MangaOtakuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EACB6FBCEC2E67F3142E89AC /* Pods-MangaOtakuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaOtakuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangaOtakuUITests/Pods-MangaOtakuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F07450390F8559C061C7DA50 /* Pods-MangaOtakuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaOtakuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangaOtakuUITests/Pods-MangaOtakuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEC4A36362DCB8CE819F3CAA /* Pods_MangaOtakuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaOtakuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E4130E1C3409F6F0727C93 /* Pods_MangaOtaku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A054D16F1C06255767EA21 /* Pods_MangaOtakuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FE3B65B7D5BF886DBCF8CC /* Pods_MangaOtakuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +131,8 @@
 				764C15C11E2DC4EA009D8554 /* MangaOtakuTests */,
 				764C15CC1E2DC4EA009D8554 /* MangaOtakuUITests */,
 				764C15AB1E2DC4E9009D8554 /* Products */,
+				8B2292468DD0C36EFF475B15 /* Pods */,
+				C44FB3367FA0FC2EB6167677 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +149,9 @@
 		764C15AC1E2DC4E9009D8554 /* MangaOtaku */ = {
 			isa = PBXGroup;
 			children = (
+				76B26FD81E30BDD00008B41E /* Classes */,
+				76B26FCF1E30B4550008B41E /* Resources */,
+				764C15DB1E2DCE5E009D8554 /* ViewControllers */,
 				764C15AD1E2DC4E9009D8554 /* AppDelegate.swift */,
 				764C15AF1E2DC4E9009D8554 /* ViewController.swift */,
 				764C15B11E2DC4E9009D8554 /* Main.storyboard */,
@@ -125,6 +180,68 @@
 			path = MangaOtakuUITests;
 			sourceTree = "<group>";
 		};
+		764C15DB1E2DCE5E009D8554 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				764C15DC1E2DCE71009D8554 /* MainViewController.swift */,
+				764C15DE1E2DCE7F009D8554 /* MenuViewController.swift */,
+				76E163481E30C61B00325F8F /* GenreTableViewCell.swift */,
+				76E163491E30C61B00325F8F /* GenreTableViewCell.xib */,
+				76E1634C1E30CC9E00325F8F /* CollectionViewCell.swift */,
+				76E1634D1E30CC9E00325F8F /* CollectionViewCell.xib */,
+				76E163521E30DB9A00325F8F /* MangaDetailsViewController.swift */,
+				766028B11E3106BC0024C0B3 /* SearchViewController.swift */,
+				7610C32E1E311714001D26F3 /* ChapterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		76B26FCF1E30B4550008B41E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				766028AF1E30E28B0024C0B3 /* 1484848990_icon-111-search.png */,
+				76B26FD01E30B45B0008B41E /* reveal-icon@2x.png */,
+				76B26FD11E30B45B0008B41E /* reveal-icon.png */,
+				76B26FD51E30B9D30008B41E /* MangaOtaku-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76B26FD81E30BDD00008B41E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76B26FD91E30BE140008B41E /* Defines.swift */,
+				76B26FDB1E30C4120008B41E /* Genre.swift */,
+				76B26FDD1E30C43A0008B41E /* SharedCenter.swift */,
+				76E163501E30D23F00325F8F /* Manga.swift */,
+				7610C32B1E311485001D26F3 /* Chapter.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B2292468DD0C36EFF475B15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				685CC63120C8B2753848C72E /* Pods-MangaOtaku.debug.xcconfig */,
+				59A8BAEACEDB36FF75C4D35A /* Pods-MangaOtaku.release.xcconfig */,
+				78E839EE2171995D97831E09 /* Pods-MangaOtakuTests.debug.xcconfig */,
+				663863D32DEB82382547E478 /* Pods-MangaOtakuTests.release.xcconfig */,
+				EACB6FBCEC2E67F3142E89AC /* Pods-MangaOtakuUITests.debug.xcconfig */,
+				F07450390F8559C061C7DA50 /* Pods-MangaOtakuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C44FB3367FA0FC2EB6167677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE049882753AB18D26AE4C6 /* Pods_MangaOtaku.framework */,
+				65D65646F477EBE64F2DB02B /* Pods_MangaOtakuTests.framework */,
+				FEC4A36362DCB8CE819F3CAA /* Pods_MangaOtakuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764C15D21E2DC4EA009D8554 /* Build configuration list for PBXNativeTarget "MangaOtaku" */;
 			buildPhases = (
+				3494F8C28B433596310ACF2B /* [CP] Check Pods Manifest.lock */,
 				764C15A61E2DC4E9009D8554 /* Sources */,
 				764C15A71E2DC4E9009D8554 /* Frameworks */,
 				764C15A81E2DC4E9009D8554 /* Resources */,
+				F7D1C7FCE96F405923387451 /* [CP] Embed Pods Frameworks */,
+				C953D7B39934DA13C2FF7341 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764C15D51E2DC4EA009D8554 /* Build configuration list for PBXNativeTarget "MangaOtakuTests" */;
 			buildPhases = (
+				E4A1D7C7CA1CEFB19374329E /* [CP] Check Pods Manifest.lock */,
 				764C15BA1E2DC4EA009D8554 /* Sources */,
 				764C15BB1E2DC4EA009D8554 /* Frameworks */,
 				764C15BC1E2DC4EA009D8554 /* Resources */,
+				9D5D0818CE2FECD349FF215A /* [CP] Embed Pods Frameworks */,
+				3EAC08F96CA8E1CE7C1A236C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764C15D81E2DC4EA009D8554 /* Build configuration list for PBXNativeTarget "MangaOtakuUITests" */;
 			buildPhases = (
+				7FC4D368CECE67EF69987814 /* [CP] Check Pods Manifest.lock */,
 				764C15C51E2DC4EA009D8554 /* Sources */,
 				764C15C61E2DC4EA009D8554 /* Frameworks */,
 				764C15C71E2DC4EA009D8554 /* Resources */,
+				57DFD1FA5FD79C9CD7DF10F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +318,7 @@
 				TargetAttributes = {
 					764C15A91E2DC4E9009D8554 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					764C15BD1E2DC4EA009D8554 = {
@@ -232,9 +358,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B26FD21E30B45B0008B41E /* reveal-icon@2x.png in Resources */,
+				76E1634F1E30CC9E00325F8F /* CollectionViewCell.xib in Resources */,
 				764C15B81E2DC4E9009D8554 /* LaunchScreen.storyboard in Resources */,
+				766028B01E30E28B0024C0B3 /* 1484848990_icon-111-search.png in Resources */,
 				764C15B51E2DC4E9009D8554 /* Assets.xcassets in Resources */,
+				76E1634B1E30C61B00325F8F /* GenreTableViewCell.xib in Resources */,
 				764C15B31E2DC4E9009D8554 /* Main.storyboard in Resources */,
+				76B26FD31E30B45B0008B41E /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +385,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3494F8C28B433596310ACF2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EAC08F96CA8E1CE7C1A236C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangaOtakuTests/Pods-MangaOtakuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57DFD1FA5FD79C9CD7DF10F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangaOtakuUITests/Pods-MangaOtakuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC4D368CECE67EF69987814 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5D0818CE2FECD349FF215A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangaOtakuTests/Pods-MangaOtakuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C953D7B39934DA13C2FF7341 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangaOtaku/Pods-MangaOtaku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A1D7C7CA1CEFB19374329E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D1C7FCE96F405923387451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangaOtaku/Pods-MangaOtaku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		764C15A61E2DC4E9009D8554 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764C15DD1E2DCE71009D8554 /* MainViewController.swift in Sources */,
 				764C15B01E2DC4E9009D8554 /* ViewController.swift in Sources */,
+				76E163511E30D23F00325F8F /* Manga.swift in Sources */,
+				76E1634E1E30CC9E00325F8F /* CollectionViewCell.swift in Sources */,
 				764C15AE1E2DC4E9009D8554 /* AppDelegate.swift in Sources */,
+				76B26FDC1E30C4120008B41E /* Genre.swift in Sources */,
+				766028B21E3106BC0024C0B3 /* SearchViewController.swift in Sources */,
+				7610C32C1E311485001D26F3 /* Chapter.swift in Sources */,
+				76B26FDA1E30BE140008B41E /* Defines.swift in Sources */,
+				764C15DF1E2DCE7F009D8554 /* MenuViewController.swift in Sources */,
+				7610C32F1E311714001D26F3 /* ChapterViewController.swift in Sources */,
+				76E163531E30DB9A00325F8F /* MangaDetailsViewController.swift in Sources */,
+				76B26FDE1E30C43A0008B41E /* SharedCenter.swift in Sources */,
+				76E1634A1E30C61B00325F8F /* GenreTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,30 +676,38 @@
 		};
 		764C15D31E2DC4EA009D8554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685CC63120C8B2753848C72E /* Pods-MangaOtaku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MangaOtaku/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.od.test.MangaOtaku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MangaOtaku/Resources/MangaOtaku-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		764C15D41E2DC4EA009D8554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A8BAEACEDB36FF75C4D35A /* Pods-MangaOtaku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MangaOtaku/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.od.test.MangaOtaku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MangaOtaku/Resources/MangaOtaku-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		764C15D61E2DC4EA009D8554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E839EE2171995D97831E09 /* Pods-MangaOtakuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +722,7 @@
 		};
 		764C15D71E2DC4EA009D8554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663863D32DEB82382547E478 /* Pods-MangaOtakuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +737,7 @@
 		};
 		764C15D91E2DC4EA009D8554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACB6FBCEC2E67F3142E89AC /* Pods-MangaOtakuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MangaOtakuUITests/Info.plist;
@@ -475,6 +751,7 @@
 		};
 		764C15DA1E2DC4EA009D8554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07450390F8559C061C7DA50 /* Pods-MangaOtakuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MangaOtakuUITests/Info.plist;
@@ -505,6 +782,7 @@
 				764C15D41E2DC4EA009D8554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		764C15D51E2DC4EA009D8554 /* Build configuration list for PBXNativeTarget "MangaOtakuTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +791,7 @@
 				764C15D71E2DC4EA009D8554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		764C15D81E2DC4EA009D8554 /* Build configuration list for PBXNativeTarget "MangaOtakuUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +800,7 @@
 				764C15DA1E2DC4EA009D8554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

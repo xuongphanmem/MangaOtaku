@@ -1,0 +1,6 @@
+framework module Pods_MangaOtaku {
+  umbrella header "Pods-MangaOtaku-umbrella.h"
+
+  export *
+  module * { export * }
+}
